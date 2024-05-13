@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Task 4</title> 
+    <style> 
+        #paragraph {             
+            padding: 20px;             
+            border: 1px solid black;             
+            cursor: pointer; 
+        } 
+ 
+        #textfield {             
+            padding: 10px;             
+            font-size: 16px; 
+            transition: all 0.3s ease; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <h1>Number 1 - Change the paragraph color</h1>     
+    <p id="paragraph">Click me!</p> 
+ 
+    <h1>Number 2 - Text Field Events</h1> 
+    <input type="text" id="textfield" placeholder="Type something..."> 
+ 
+    <script src="eventmanager.js"></script> <!-- Load event manager first --> 
+    <script src="textfield.js"></script> <!-- Load textfield.js after event manager -->
+</body> 
+</html>
